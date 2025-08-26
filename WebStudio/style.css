@@ -1,0 +1,91 @@
+.BlueText {
+    color: #2196F3;
+}
+ .BlackText {
+    color: #212121;
+ }
+ 
+ .SectionOne {
+    background-color: #2F303A;
+    background-position: center;
+    margin-left: -10px;
+    width: 2100px;
+    height: 600px;
+    
+ }
+
+ h2 {
+    margin-left: 750px;
+    font-size: 50px;
+ }
+
+ button {
+     margin-left: 840px;
+     margin-top: 100px;
+     background-color: #2196F3;
+     width: 250px;
+     height: 50px;
+     top: 430px;
+
+ }
+
+ .H2Text {
+    color: #FFFFFF;
+    font-size: 70px;
+    margin-left: 550px;
+    margin-top: 75px;
+    
+ }
+
+ header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 1600px;
+    height: 5px;
+ }
+
+ .menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+   
+ }
+
+ .ImgOne {
+    width: 370px;
+    height: 294px;
+    top: 1058px;
+    left: 215px;
+    
+ }
+
+ footer {
+    background: #2F303A;
+    color: #FFFFFF;
+    width: 2300px;
+    height: 250px;
+    top: 2100px;
+    margin-left: -10px;
+ }
+
+ .menu2 {
+    list-style: none;
+    display: block;
+    font-size: 20px;
+ }
+
+ h3 {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 35px;
+ }
+ 
+ p {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+ }
