@@ -9,31 +9,37 @@
     background-color: #2F303A;
     background-position: center;
     margin-left: -10px;
-    width: 2100px;
-    height: 600px;
+    width: auto;
+    height: 800px;
     
  }
 
- h2 {
-    margin-left: 750px;
-    font-size: 50px;
+.H2Text2 {
+   text-align: center;
+   font-size: 36px;
+   position: relative;
+   top: 100px;
  }
 
  button {
      margin-left: 840px;
-     margin-top: 100px;
+     margin-top: 200px;
      background-color: #2196F3;
      width: 250px;
      height: 50px;
      top: 430px;
+     background-position: center;
+
 
  }
 
  .H2Text {
     color: #FFFFFF;
     font-size: 70px;
-    margin-left: 550px;
-    margin-top: 75px;
+    position: relative;
+    top: 150px;
+   
+   text-align: center;
     
  }
 
@@ -44,7 +50,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     width: 1600px;
-    height: 5px;
+    
  }
 
  .menu {
@@ -57,17 +63,17 @@
  .ImgOne {
     width: 370px;
     height: 294px;
-    top: 1058px;
-    left: 215px;
+    
+    left: 400px;
     
  }
 
  footer {
     background: #2F303A;
     color: #FFFFFF;
-    width: 2300px;
+    width: a;
     height: 250px;
-    top: 2100px;
+    
     margin-left: -10px;
  }
 
@@ -89,3 +95,62 @@
     text-align: center;
     margin-top: 10px;
  }
+
+ h3>span {
+   color: #2196F3;
+ }
+
+  h1>span {
+   color: #2196F3;
+ }
+
+ .SectionTwo {
+   height: 300px;
+ }
+
+ .SectionFour {
+   background: #F5F4FA;
+   height: 650px;
+ }
+
+ img {
+   position: relative;
+   top: 200px;
+   left: 350px;
+ }
+
+ .TableOne {
+   position: relative;
+   top: 150px;
+   font-size: 20px;
+ }
+
+ .SectionThree {
+   height: 650px;
+ }
+
+ .TableTwo tbody {
+   position: relative;
+   left: 300px;
+   top: 200px;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ footer h3 {
+   position: relative;
+   left: 200px;
+   top: 40px;
+ }
+
+  footer .menu2 {
+   position: relative;
+   left: 200px;
+   top: 50px;
+ }
+
+ h3 {
+   width: 200px;
+ }
+
+ 
