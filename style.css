@@ -152,5 +152,30 @@
  h3 {
    width: 201px;
  }
+ :root {
+  --accent-color: #2196F3;
+
+}
+:root {
+
+  --white-color: #FFFFFF;
+
+}
+
+:root {
+  --main-text-color: #212121;
+
+}
+
+:root {
+  --background-color: #F5F4FA;
+
+}
+:root {
+  --dark-bg-color: #2F303A;
+
+}
+
+
 
  
