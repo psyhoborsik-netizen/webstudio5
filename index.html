@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   
+    <link rel="stylesheet" href="./normalize.css">
 </head>
 <body>
-    <header>
+    <div class="container">
+    <header class="container-header">
         <h1><span>Web</span>studio</h1>
         <nav>
             <ul class="menu">
@@ -22,77 +23,88 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container-main">
         <section class="SectionOne">
-            <pre><h2 class="H2Text">Ефективні рішення для
-    вашого бізнесу</h2></pre>
+            <div class="h2-title"><h2 class="H2Text">Ефективні рішення для вашого бізнесу</h2></div>
             <a href="https://bi-serv.com/" target="_blank">
-                <button type="button"><p>Замовити послугу</p></button></a>
+                <div class="button"><button type="button"><p>Замовити послугу</p></button></div></a>
         </section>
-        <section class="SectionTwo">
-           <div> <table class="TableOne">
-                <thead>
-                    <tr>
-                        <th class="th-body-galuz">УВАГА ДО ДЕТАЛЕЙ</th>
-                        <th class="th-body-galuz">ПУНКТУАЛЬНІСТЬ</th>
-                        <th class="th-body-galuz">ПЛАНУВАННЯ</th>
-                        <th class="th-body-galuz">СУЧАСНІ ТЕХНОЛОГІЇ</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Ідейні міркування, і навіть початок
-                             повсякденної роботи з формування
-                              позиції.</td>
-                        <td>Завдання організації, особливо рамки
-                             і місце навчання кадрів тягне у себе.</td>
-                        <td>Так само консультація з широким
-                             активом значною мірою зумовлює.</td>
-                        <td>Значимість цих проблем настільки
-                             очевидна, що реалізація планових
-                              завдань.</td>
-                    </tr>
-                </tbody>
-            </table></div>
+        <section class="SectionTwo"> 
+            <div class="work-description">    
+                <article>
+                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
+                   <p>Ідейні міркування, і навіть початок
+                    повсякденної роботи з формування
+                    позиції.</p>
+                </article>
+                <article>
+                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
+                    <p>Завдання організації, особливо рамки
+                    і місце навчання кадрів тягне у себе.</p>
+                </article>
+                <article>
+                    <h4>ПЛАНУВАННЯ</h4>
+                    <p>Так само консультація з широким
+                    активом значною мірою зумовлює.</p>
+                </article>      
+                <article>
+                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                    <p>Значимість цих проблем настільки
+                    очевидна, що реалізація планових
+                    завдань.</p>
+                </article>
+            </div>
         </section>
         <section class="SectionThree">
-            <h2 class="H2Text2">Чим ми займаємося</h2>
-                <img src="Images/01590214fe209b7db875477ca0f844823574082d.jpg"  alt="" class="ImgOne">
-                <img src="Images/8dac6a22eff34a388bbc6409758a002e5a58c3ca.jpg"  alt="" class="ImgOne">
-                <img src="Images/4ca103f5ff490664ba91f138b9f708e01d65306a.jpg"  alt="" class="ImgOne">
+            <h2 class="H2Text3">Чим ми займаємося</h2>
+            <div class="work">   
+                <img src="Images/01590214fe209b7db875477ca0f844823574082d.jpg"  alt="" class="img-work">
+                <img src="Images/8dac6a22eff34a388bbc6409758a002e5a58c3ca.jpg"  alt="" class="img-work">
+                <img src="Images/4ca103f5ff490664ba91f138b9f708e01d65306a.jpg"  alt="" class="img-work">
+            </div> 
         </section>
         <section class="SectionFour">
             <h2 class="H2Text2">Наша команда</h2>
-            <table class="TableTwo">
-                <thead>
-                    <th><img src="Images/8c1e65c101b0562402f9066520924acac0be8dc7.jpg" width = "300"  height = "200" alt=""></th>
-                    <th><img src="Images/cbc143718ed9ff0c05008e3e7ae5285b05efd211.jpg" width = "300"  height = "200" alt=""></th>
-                    <th><img src="Images/b9f51817c03fb848ed9dfc89543bbe97156c3661.jpg" width = "300"  height = "200" alt=""></th>
-                    <th><img src="Images/335d4d847ff905b2d5f56aa0d2b29aa48e997cd8.jpg" width = "300"  height = "200" alt=""></th>
-                </thead>
-                <tbody>
-                    <th class="th-body">Ігор Дем'яненко</th>
-                    <th class="th-body">Ольга Рєпіна</th>
-                    <th class="th-body">Микола Тарасов</th>
-                    <th class="th-body">Михайло Єрмаков</th>
-                </tbody>
-                <tbody>
-                    <td>Product Designer</td>
-                    <td>Frontend Developer</td>
-                    <td>Marketing</td>
-                    <td>UI Designer</td>
-                </tbody>
-            </table>
+        <div class="team-container">
+            <div class="article-member">
+                <article class="member">
+                <img src="Images/8c1e65c101b0562402f9066520924acac0be8dc7.jpg" width = "270"  height = "260" alt="">
+                <h5>Ігор Дем'яненко</h5>
+                <p>Product Designer</p>
+            </article>
+            </div>
+            <div class="article-member">
+                <article class="member">
+                <img src="Images/cbc143718ed9ff0c05008e3e7ae5285b05efd211.jpg" width = "270"  height = "260" alt="">
+                <h5>Ольга Рєпіна</h5>
+                <p>Frontend Developer</p>
+            </article>
+            </div>
+            <div class="article-member">
+                <article class="member">
+                <img src="Images/b9f51817c03fb848ed9dfc89543bbe97156c3661.jpg" width = "270"  height = "260" alt="">
+                <h5>Микола Тарасов</h5>
+                <p>Marketing</p>
+            </article>
+            </div>
+            <div class="article-member">
+                <article class="member">
+                <img src="Images/335d4d847ff905b2d5f56aa0d2b29aa48e997cd8.jpg" width = "270"  height = "260" alt="">
+                <h5>Михайло Єрмаков</h5>
+                <p>UI Designer</p>
+            </article>
+            </div>
+        </div>
         </section>
     </main>
-    <footer>
-        <h3><span>Web</span>studio</h3></span>
+    <footer class="container-footer">
+        <h3 class="logo"><span>Web</span>studio</h3>
         <ul class="menu2">
-            <li>м. Київ, пр-т Лесі Українки, 26</li>
-            <li>info@devstudio.com</li>
-            <li>+38 096 111 11 11</li>
+            <li class="menu2-li">м. Київ, пр-т Лесі Українки, 26</li>
+            <li class="menu2-li">info@devstudio.com</li>
+            <li class="menu2-li">+38 096 111 11 11</li>
         </ul>
     </footer>
-    
+    </div>
 </body>
 </html>

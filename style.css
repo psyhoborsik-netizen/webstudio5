@@ -1,44 +1,33 @@
 * {
-  margin: 0;
-  padding: 0;
-
+  margin: 0 0;
+  padding: 0 0;
 }
 
-th,h2 {
+h2 {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  
 }
 
-td, li {
+ li {
     font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  
 }
 
-.th-body,a {
+a {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-  "wdth" 100;
+  
 }
 
-.th-body-galuz {
-    font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+
 
 .BlueText {
     color: #2196F3;
@@ -49,50 +38,75 @@ td, li {
  
  .SectionOne {
     background-color: #2F303A;
-    background-position: center;
-    margin-left: -10px;
-    width: auto;
-    height: 800px;
+    height: 600px;
     
  }
 
 .H2Text2 {
    text-align: center;
    font-size: 36px;
-   position: relative;
-   top: 100px;
+   padding-top: 150px;
+ }
+
+ .img-work {
+  width: 370px;
+  height: 294px;
+  
+ }
+
+ .work {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+ }
+
+ .H2Text3 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 150px;
+ }
+
+
+
+ .H2Text {
+  color: #FFFFFF;
+  font-size: 70px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 800px; 
+  margin-top: 100px;
+ }
+
+ .button {
+  display: flex;
+  justify-content: center;
  }
 
  button {
-     margin-left: 840px;
-     margin-top: 200px;
-     background-color: #2196F3;
-     width: 250px;
-     height: 50px;
-     top: 430px;
-     background-position: center;
-
-
+  margin: 40px;
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: #FFFFFF;
+  font-size: 16px;
  }
 
- .H2Text {
-    color: #FFFFFF;
-    font-size: 70px;
-    position: relative;
-    top: 150px;
-   
-   text-align: center;
-    
+ .h2-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
  }
 
  header {
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px 20px;
-    width: 1600px;
-    
+    height: 80px;
  }
 
  .menu {
@@ -102,41 +116,36 @@ td, li {
    
  }
 
- .ImgOne {
-    width: 370px;
-    height: 294px;
-    
-    left: 400px;
-    
- }
+
 
  footer {
     background: #2F303A;
     color: #FFFFFF;
-    width: a;
+    padding-top: 45px;
     height: 250px;
-    
-    margin-left: -10px;
  }
 
  .menu2 {
     list-style: none;
     display: block;
     font-size: 20px;
- }
-
- h3 {
-    margin-left: 40px;
-    margin-top: 30px;
-    font-size: 35px;
- }
- 
- p {
-    color: #FFFFFF;
-    font-size: 20px;
-    text-align: center;
+    margin-left: 215px;
     margin-top: 10px;
  }
+
+  .menu2-li{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+.logo {
+  display: flex;
+  margin-left: 215px;
+  font-size: 26px;
+}
+
 
  h3>span {
    color: #2196F3;
@@ -146,54 +155,51 @@ td, li {
    color: #2196F3;
  }
 
- .SectionTwo {
-   height: 300px;
- }
-
- .SectionFour {
-   background: #F5F4FA;
-   height: 650px;
- }
-
- img {
-   position: relative;
-   top: 200px;
-   left: 350px;
- }
-
- .TableOne {
-   position: relative;
-   top: 150px;
-   font-size: 20px;
+ .Sectiontwo {
+  height: 225px;
  }
 
  .SectionThree {
-   height: 650px;
+   height: 565px;
+   
  }
 
- .TableTwo tbody {
-   position: relative;
-   left: 300px;
-   top: 200px;
-   font-size: 20px;
-   text-align: center;
+ .SectionFour {
+  height: 648px;
+  background-color: #F5F4FA;
  }
 
- footer h3 {
-   position: relative;
-   left: 200px;
-   top: 40px;
- }
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+  
+}
 
-  footer .menu2 {
-   position: relative;
-   left: 200px;
-   top: 50px;
- }
+.article-member {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-bottom: 40px;
+  
+}
 
- h3 {
-   width: 201px;
- }
+.work-description {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
  :root {
   --accent-color: #2196F3;
 
@@ -219,7 +225,7 @@ td, li {
 }
 
 h1,h3 {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -228,6 +234,10 @@ h1,h3 {
 a {
   text-decoration: none;
 }
+
+
+
+
 
 
 
